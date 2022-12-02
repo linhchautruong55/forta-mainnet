@@ -46,14 +46,14 @@ sudo apt-get install forta
 ````        
  forta init --passphrase **YOUR_PASSWORD**
 ````        
-        Your result will be as below
+ Your result will be as below
         
-        > Scanner address: 0x8edxxxx....xxxxx37D7F       <<<<< Write down your scan address
-        Successfully initialized at /root/.forta
-        Please make sure that all of the values in config.yml are set correctly.
-        Please fund your scanner address with some MATIC.
-        Please enable it for the chain ID in your config by doing 'forta register --owner-address <your_owner_wallet_address>'
-        > 
+ > Scanner address: 0x8edxxxx....xxxxx37D7F       <<<<< Write down your scan address
+ Successfully initialized at /root/.forta
+ Please make sure that all of the values in config.yml are set correctly.
+ Please fund your scanner address with some MATIC.
+ Please enable it for the chain ID in your config by doing 'forta register --owner-address <your_owner_wallet_address>'
+ > 
  - Configure systemd
  ````    
         sudo tee /etc/systemd/system/forta.service > /dev/null <<EOF
@@ -94,8 +94,8 @@ sudo apt-get install forta
  ````       
  # Create app on Alchemy and get API
         
-       Login the link https://dashboard.alchemyapi.io/apps, then select Apps ⇒ Create App.Then select Chain is Polygon, Network is Polygon Mainnet , then press Create App
-       After your App is created, press View Key, and write down your jsonRPC in HTTP, example https://polygon-mainnet.g.alchemy.com/v2/******
+ Login the link https://dashboard.alchemyapi.io/apps, then select Apps ⇒ Create App.Then select Chain is Polygon, Network is Polygon Mainnet , then press Create App
+ After your App is created, press View Key, and write down your jsonRPC in HTTP, example https://polygon-mainnet.g.alchemy.com/v2/******
 
  # Configure config.yml
   ````      
